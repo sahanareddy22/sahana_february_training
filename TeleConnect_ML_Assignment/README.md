@@ -160,7 +160,7 @@ python main.py
 
 ---
 
-## 🔹 Author
+##  Author
 
 Vanna Sahana
 
