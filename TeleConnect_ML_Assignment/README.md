@@ -1,10 +1,10 @@
-# 📊 TeleConnect ML Assignment
+#  TeleConnect ML Assignment
 
 **Customer Churn Prediction & Revenue Forecasting using Supervised Learning**
 
 ---
 
-## 🔹 Project Description
+##  Project Description
 
 This project builds an end-to-end Machine Learning pipeline to solve two business problems for a telecom company:
 
@@ -15,7 +15,7 @@ The solution includes data preprocessing, feature engineering, model training, e
 
 ---
 
-## 🔹 Dataset
+##  Dataset
 
 * Source: Telco Customer Churn Dataset (Kaggle)
 * Records: 7,043 customers
@@ -28,7 +28,7 @@ The solution includes data preprocessing, feature engineering, model training, e
 
 ---
 
-## 🔹 Project Structure
+##  Project Structure
 
 ```
 teleconnect-ml-assignment/
@@ -62,7 +62,7 @@ teleconnect-ml-assignment/
 
 ---
 
-## 🔹 Installation & Setup
+##  Installation & Setup
 
 ```bash
 git clone https://github.com/your-username/teleconnect-ml-assignment.git
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔹 How to Run
+##  How to Run
 
 ```bash
 python main.py
@@ -84,23 +84,29 @@ python main.py
 
 ---
 
-## 🔹 Results Summary
+##  Results Summary
 
-### ✅ Best Classification Model
+### Best Classification Model
 
 * **Random Forest Classifier**
 * High ROC-AUC score
 * Strong performance on imbalanced data
 
-### ✅ Best Regression Model
+  <img width="601" height="197" alt="Screenshot 2026-05-05 154103" src="https://github.com/user-attachments/assets/0a9c9bc5-6ab0-4a81-be8a-783f1f4b176f" />
+
+
+###  Best Regression Model
 
 * **Random Forest Regressor**
 * Highest R² score
 * Captures non-linear relationships effectively
 
+  <img width="441" height="221" alt="Screenshot 2026-05-05 154122" src="https://github.com/user-attachments/assets/49f67a18-28b4-40f8-93d8-f600f14d158c" />
+
+
 ---
 
-## 🔹 Key Insights
+##  Key Insights
 
 * Customers with **month-to-month contracts** churn more
 * **High monthly charges** increase churn probability
@@ -109,14 +115,14 @@ python main.py
 
 ---
 
-## 🔹 Outputs Generated
+##  Outputs Generated
 
-### 📊 Reports
+###  Reports
 
 * classification_results.csv
 * regression_results.csv
 
-### 📈 Visualizations
+###  Visualizations
 
 * Confusion Matrix
 * ROC Curve
@@ -127,7 +133,7 @@ python main.py
 
 ---
 
-## 🔹 Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -137,7 +143,7 @@ python main.py
 
 ---
 
-## 🔹 Business Recommendations
+##  Business Recommendations
 
 * Offer discounts for long-term contracts
 * Target high-risk customers using model predictions
@@ -146,7 +152,7 @@ python main.py
 
 ---
 
-## 🔹 Reproducibility
+##  Reproducibility
 
 * `random_state=42` used throughout
 * Modular pipeline for reuse
